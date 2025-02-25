@@ -1,11 +1,14 @@
-#Ejercicio1: Edad
+#Ejercicio 1: Edad
 edad= 18
+print(type(edad))
 
 #Ejercicio 2: Altura
 altura= 1.73
+print(type(altura))
 
 #Ejercicio 3: Número complejo
 nc= 4+10j
+print(type(nc))
 
 #Ejercicio 4: Area de un triangulo
 altura= float(input("Coloca la altura del triangulo: "))
@@ -36,20 +39,40 @@ circunferencia= 2*pi*radio
 print("El area de tu circulo es: ", areac)
 print("La circunferencia de tu circulo es: ", circunferencia)
 
-#Ejercicio 8: Pendiente
-m= 2
-b= -2
-interx= -b/m
-intery= b 
+#Ejercicio 8: Pendiente 1
+x= 0
+y= 0
+interx= (y+2)/2
+intery= 2*x-2
+m= intery/-interx
 print("La pendiente de la recta es: ", m)
 print("La intersección en el eje x es: ", interx)
 print("La intersección en el eje y es: ", intery)
 
-#Ejercicio 9: 
+#Ejercicio 9: Pendiente 2
+import math 
+x1= 2
+y1= 2
+x2= 6
+y2= 10
+pendiente= (y2-y1)/(x2-x1)
+diseu= math.sqrt((x2-x1)**2+(y2-y1)**2)
+print("La pendiente de la recta es: ", pendiente)
+print("La distancia euclidiana es: ", diseu)
 
-#Ejercicio 10:
+#Ejercicio 10: Comparación de pendientes
+m1= m
+m2= pendiente
+print("La pendiente de la recta y= 2x-2 es: ", m1)
+print("La pendiente entre los puntos (2,2) y (6,10) es: ", m2)
+if m1==m2:
+    resultado= "Las pendientes son iguales"
+else: 
+    resultado= "Las pendientes son diferentes"
+print(resultado)
 
-#Ejercicio 11:
+#Ejercicio 11: Calcular x
+
 
 #Ejercicio 12:
 
