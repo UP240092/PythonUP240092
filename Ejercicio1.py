@@ -36,4 +36,41 @@ circunferencia= 2*pi*radio
 print("El area de tu circulo es: ", areac)
 print("La circunferencia de tu circulo es: ", circunferencia)
 
-#Ejercicio 8: 
+#Ejercicio 8: Pendiente
+m= 2
+b= -2
+interx= -b/m
+intery= b 
+print("La pendiente de la recta es: ", m)
+print("La intersección en el eje x es: ", interx)
+print("La intersección en el eje y es: ", intery)
+
+#Ejercicio 9: 
+
+#Ejercicio 10:
+
+#Ejercicio 11:
+
+#Ejercicio 12:
+
+#Ejercicio 13:
+
+#Ejercicio 14:
+
+#Ejercicio 15:
+
+#Ejercicio 16:
+
+#Ejercicio 17:
+
+#Ejercicio 18:
+
+#Ejercicio 19:
+
+#Ejercicio 20:
+
+#Ejercicio 21:
+
+#Ejercicio 22:
+
+#Ejercicio 23:
