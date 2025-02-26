@@ -72,13 +72,38 @@ else:
 print(resultado)
 
 #Ejercicio 11: Calcular x
+xc= float(input("Coloca un valor de x: "))
+yc= xc**2 +6*xc + 9
+print("El valor de y es: ", yc)
+if yc== 0:
+    print("y equivale a 0 cuando x es: ", xc)
+else:
+    print("y no equivale a 0 cuando x es: ", xc)
 
+#Ejercicio 12: Medir python y jerga
+pylen= len("Python")
+dralen= len("Dragon")
+falsacom= pylen < dralen
+print("La longitud de 'Python' es: ", pylen)
+print("La longitud de 'Dragon' es: ", dralen)
+print("La longitud de 'Dragon' es mayor a la de 'Python'?", falsacom)
 
-#Ejercicio 12:
+#Ejercicio 13: 'on' en python y dragon
+python= 'on' in 'python'
+dragon= 'on' in 'dragon'
+if python and dragon:
+    resultado= "La silaba 'on' se encuentra en ambas palabras"
+else:
+    resultado= "La silaba 'on' no se encuentra en ambas palabras"
+print(resultado)
 
-#Ejercicio 13:
-
-#Ejercicio 14:
+#Ejercicio 14: Jargon en la frase
+frase= "I hope this course is not full of jargon"
+if "jargon" in frase:
+    resultado= "La palabara 'jargon' esta en la frase"
+else:
+    resultado: "La palabra 'jargon' no esta en la frase"
+print(resultado)
 
 #Ejercicio 15:
 
