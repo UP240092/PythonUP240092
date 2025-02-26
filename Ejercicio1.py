@@ -105,9 +105,18 @@ else:
     resultado: "La palabra 'jargon' no esta en la frase"
 print(resultado)
 
-#Ejercicio 15:
+#Ejercicio 15: No 'on' en python y dragon
+pythonno= 'on' not in 'python'
+dragonno= 'on' not in 'dragon'
+if pythonno and dragonno:
+    resultado= ("La silaba 'on' no se encuentra en ninguna palabra")
+else:
+    resultado= ("La silaba 'on' se encuentra en alguna palabra")
+    print(resultado)
 
-#Ejercicio 16:
+#Ejercicio 16: Longitud de python
+pylon= len("python")
+
 
 #Ejercicio 17:
 
