@@ -102,7 +102,7 @@ frase= "I hope this course is not full of jargon"
 if "jargon" in frase:
     resultado= "La palabara 'jargon' esta en la frase"
 else:
-    resultado: "La palabra 'jargon' no esta en la frase"
+    resultado= "La palabra 'jargon' no esta en la frase"
 print(resultado)
 
 #Ejercicio 15: No 'on' en python y dragon
@@ -134,7 +134,16 @@ if esPar(numero):
 else:
     print("El numero", numero, "es impar")
 
-#Ejercicio 18:
+#Ejercicio 18: Division con resultado de 2.7
+diviflor= 7//3
+castent= int(2.7)
+if diviflor == castent:
+    resultado= "La division de floor 7 entre 3 es igual al valor entero de 2.7"
+else:
+    resultado= "La division de floor 7 entre 3 no es igual al valor entero de 2.7"
+print("La division de 7 entre 3 es: ", diviflor)
+print("El valor entero de 2.7 es: ", castent)
+print(resultado)
 
 #Ejercicio 19:
 
