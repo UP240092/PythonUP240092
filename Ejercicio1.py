@@ -116,9 +116,23 @@ else:
 
 #Ejercicio 16: Longitud de python
 pylon= len("python")
+pylonflo= float(pylon)
+pylonst= str(pylonflo)
+print("La longitud de la palabra 'Python' es: ", pylon)
+print("La longitud como flotante es: ", pylonflo)
+print("La longitud como strigt es: ", pylonst)
 
-
-#Ejercicio 17:
+#Ejercicio 17: Numeros divisibles entre dos
+def esPar(numero):
+    if numero%2 == 0:
+        return True
+    else:
+        return False
+numero= float(input("Ingresa un numero: "))
+if esPar(numero):
+    print("El numero", numero, "es par")
+else:
+    print("El numero", numero, "es impar")
 
 #Ejercicio 18:
 
