@@ -192,9 +192,19 @@ tarifahora= float(input("Coloque su tarifa por hora: "))
 salario= horas*tarifahora
 print("Su salario es de: ", salario)
 
-#Ejercicio 22:
+#Ejercicio 22: Tu vida en segundos
 print("Ejercicio 22")
+años= float(input("Cuantos años tiene: "))
+dias= 365
+horas= dias*24
+minutos= horas*60
+segundos= minutos*60
+print("Si tienes", años , "años, entonces tienes", segundos , "segundos de vida")
 
-#Ejercicio 23:
+#Ejercicio 23: Tabla de numeros
 print("Ejercicio 23")
-
+print("1 1 1 1 1")
+print("2 1 2 4 8")
+print("3 1 3 9 27")
+print("4 1 4 16 64")
+print("5 1 5 25 1252")
