@@ -25,14 +25,20 @@ print("Se declaro la variable company")
 print("Ejercicio 4")
 print(company)
 
-#Ejercicio 5:
+#Ejercicio 5: Imprimir longitud de company
 print("Ejercicio 5")
+lencom= len(company)
+print(lencom)
 
-#Ejercicio 6:
+#Ejercicio 6: Company en mayusculas
 print("Ejercicio 6")
+comma= company.upper()
+print(comma)
 
-#Ejercicio 7:
+#Ejercicio 7: Company en minusculas
 print("Ejercicio 7")
+commi= company.lower()
+print(commi)
 
 #Ejercicio 8: 
 print("Ejercicio 8")
