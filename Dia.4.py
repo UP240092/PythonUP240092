@@ -61,26 +61,36 @@ print(company.index(subca))
 print("Ejercicio 11")
 print(company.replace("Coding", "Python"))
 
-#Ejercicio 12:
+#Ejercicio 12: Cambiar la frase de "Coding for all" a "Python for everyone"
 print("Ejercicio 12")
+print(company.replace("Coding for all", "Python for everyone"))
 
-#Ejercicio 13:
+#Ejercicio 13: Separar la palabra "Coding for all"
 print("Ejercicio 13")
+print(company.split())
 
-#Ejercicio 14:
+#Ejercicio 14: Separar las apps
 print("Ejercicio 14")
+apps= "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+print(apps.split(","))
 
-#Ejercicio 15:
+#Ejercicio 15: Buscar la letra en el lugar 0
 print("Ejercicio 15")
+print(company[0])
 
-#Ejercicio 16:
+#Ejercicio 16: Buscar la ultima letra 
 print("Ejercicio 16")
+print(company[13])
 
-#Ejercicio 17:
+#Ejercicio 17: Buscar la letra en el lugar 10
 print("Ejercicio 17")
+print(company[10])
 
-#Ejercicio 18:
+#Ejercicio 18: Acronimo de "Paython for all"
 print("Ejercicio 18")
+acro= "Python for all"
+acro= acro.split()
+print(acro[0][0]+acro[1][0]+acro[2][0])
 
 #Ejercicio 19:
 print("Ejercicio 19")
