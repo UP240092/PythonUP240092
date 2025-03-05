@@ -92,11 +92,15 @@ acro= "Python for all"
 acro= acro.split()
 print(acro[0][0]+acro[1][0]+acro[2][0])
 
-#Ejercicio 19:
+#Ejercicio 19: Acronimo de "Coding for all"
 print("Ejercicio 19")
+acro2= "Coding for all"
+acro2= acro2.split()
+print(acro2[0][0]+acro2[1][0]+acro2[2][0])
 
-#Ejercicio 20:
+#Ejercicio 20: Ubicar 'C' en "Coding for all"
 print("Ejercicio 20")
+print(company.index('C'))
 
 #Ejercicio 21:
 print("Ejercicio 21")
