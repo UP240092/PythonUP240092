@@ -40,17 +40,26 @@ print("Ejercicio 7")
 commi= company.lower()
 print(commi)
 
-#Ejercicio 8: 
+#Ejercicio 8: Formatear company
 print("Ejercicio 8")
+print(company.capitalize())
+print(company.title())
+print(company.swapcase())
 
-#Ejercicio 9:
+#Ejercicio 9: Recortar la palabra
 print("Ejercicio 9")
+pa1= company[0:6]
+print(pa1)
 
-#Ejercicio 10:
+#Ejercicio 10: Encontrar la palabra "coding"
 print("Ejercicio 10")
+print(company.find("Coding"))
+subca= "Coding"
+print(company.index(subca))
 
-#Ejercicio 11:
+#Ejercicio 11: Remplasar coding por python
 print("Ejercicio 11")
+print(company.replace("Coding", "Python"))
 
 #Ejercicio 12:
 print("Ejercicio 12")
