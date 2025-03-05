@@ -16,11 +16,14 @@ p7= "All"
 cadena2= p5+es+p6+es+p7
 print(cadena2)
 
-#Ejercicio 3:
+#Ejercicio 3: Variable company
 print("Ejercicio 3")
+company= "Coding for all"
+print("Se declaro la variable company")
 
-#Ejercicio 4:
+#Ejercicio 4: Imprimir la variable company
 print("Ejercicio 4")
+print(company)
 
 #Ejercicio 5:
 print("Ejercicio 5")
