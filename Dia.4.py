@@ -102,20 +102,28 @@ print(acro2[0][0]+acro2[1][0]+acro2[2][0])
 print("Ejercicio 20")
 print(company.index('C'))
 
-#Ejercicio 21:
+#Ejercicio 21: Ubicar 'F' en "Coding for all"
 print("Ejercicio 21")
+print(company.index("f"))
 
-#Ejercicio 22:
+#Ejercicio 22: Ubicar la ultima 'L' en "Coding for all people"
 print("Ejercicio 22")
+a= "Coding for all people"
+print(a.rfind("l"))
 
-#Ejercicio 23:
+#Ejercicio 23: Encontrar la primera ves que sale 'because'
 print("Ejercicio 23")
+b= "You cannot end a sentence with because because because is a conjunction"
+bsp= b.split()
+print(b.index("because"))
 
-#Ejercicio 24:
+#Ejercicio 24: Encontrar la ultima ves que sale 'because'
 print("Ejercicio 24")
+print(b.rindex("because"))
 
-#Ejercicio 25:
+#Ejercicio 25: Quitar 'because because because' de la frase
 print("Ejercicio 25")
+print(b[0:30]+b[54:71])
 
 #Ejercicio 26:
 print("Ejercicio 26")
