@@ -1,8 +1,20 @@
-#Ejercicio 1:
+#Ejercicio 1: Conectar palabras "Thirty days of python"
 print("Ejercicio 1")
+p1= "Thirty"
+p2= "Days"
+p3= "Of"
+p4= "Python"
+es= " "
+cadena1= p1+es+p2+es+p3+es+p4
+print(cadena1)
 
-#Ejercicio 2:
+#Ejercicio 2: Conectar palabaras "Coding for all"
 print("Ejercicio 2")
+p5= "Coding"
+p6= "For"
+p7= "All"
+cadena2= p5+es+p6+es+p7
+print(cadena2)
 
 #Ejercicio 3:
 print("Ejercicio 3")
