@@ -142,12 +142,12 @@ print(company.startswith(substring))
 print("Ejercicio 29")
 print(company.endswith(substring))
 
-#Ejercicio 30:
+#Ejercicio 30: 
 print("Ejercicio 30")
 compe= "Coding for all"
 print(compe.strip())
 
-#Ejercicio 31:
+#Ejercicio 31: 
 print("Ejercicio 31")
 
 #Ejercicio 32:
