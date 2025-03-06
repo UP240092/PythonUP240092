@@ -125,20 +125,27 @@ print(b.rindex("because"))
 print("Ejercicio 25")
 print(b[0:30]+b[54:71])
 
-#Ejercicio 26:
+#Ejercicio 26: Encontrar la primera ves que sale "Because"
 print("Ejercicio 26")
+print(b.index("because"))
 
-#Ejercicio 27:
+#Ejercicio 27: Quitar "because because because" de la frase
 print("Ejercicio 27")
+print(b[0:30]+b[54:71])
 
-#Ejercicio 28:
+#Ejercicio 28: Saber si "Coding for all" empieza con coding
 print("Ejercicio 28")
+substring= "Coding"
+print(company.startswith(substring))
 
-#Ejercicio 29:
+#Ejercicio 29: Saber si "Coding for all" termina con coding
 print("Ejercicio 29")
+print(company.endswith(substring))
 
 #Ejercicio 30:
 print("Ejercicio 30")
+compe= "Coding for all"
+print(compe.strip())
 
 #Ejercicio 31:
 print("Ejercicio 31")
