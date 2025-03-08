@@ -142,19 +142,26 @@ print(company.startswith(substring))
 print("Ejercicio 29")
 print(company.endswith(substring))
 
-#Ejercicio 30: 
+#Ejercicio 30: Quitar los espacios de la frase
 print("Ejercicio 30")
-compe= "Coding for all"
+compe= " Coding for all "
 print(compe.strip())
 
-#Ejercicio 31: 
+#Ejercicio 31: Saber cual de las dos frases es true y cual es false
 print("Ejercicio 31")
+prueba1= "30DaysofPython"
+print(prueba1.isidentifier())
+prueba2= "thritydaysofpython"
+print(prueba2.isidentifier())
 
-#Ejercicio 32:
+#Ejercicio 32: Separar las librerias con #
 print("Ejercicio 32")
+librerias= ('Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon')
+print('#'.join(librerias))
 
-#Ejercicio 33:
+#Ejercicio 33: Separar las frases
 print("Ejercicio 33")
+print('I am enjoying this challenge.' '/n' 'I just wonder what is next.')
 
 #Ejercicio 34:
 print("Ejercicio 34")
