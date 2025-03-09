@@ -165,6 +165,7 @@ print('I am enjoying this challenge.\nI just wonder what is next.')
 
 #Ejercicio 34: Escribir en diferentes lineas
 print("Ejercicio 34")
+print("\tNombre   \tEdad   \tPais       \tCiudad\n\tAsabeneh   \t250   \tFinlandia   \tHelsinki")
 
 #Ejercicio 35:
 print("Ejercicio 35")
