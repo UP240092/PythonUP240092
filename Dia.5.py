@@ -19,12 +19,16 @@ print(lista2[0], lista2[9], lista2[18])
 #Ejercicio 5: Hacer una variable con tus datos
 print("Ejercicio 5")
 mixed_data_types= ["Sofia", 18, 1.73, "Soltera", "Camino Real"]
+print("Se hiso una variable con mis datos personales")
 
-#Ejercicio 6: 
+#Ejercicio 6: Hacer una variable con lista de compañias
 print("Ejercicio 6")
+it_companies= ("Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon")
+print("Se hiso una variable con una lista de distintas compañias")
 
-#Ejercicio 7:
+#Ejercicio 7: Imprimir la lista anterior
 print("Ejercicio 7")
+print(it_companies)
 
 #Ejercicio 8:
 print("Ejercicio 8")
