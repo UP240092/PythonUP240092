@@ -30,16 +30,20 @@ print("Se hiso una variable con una lista de distintas compañias")
 print("Ejercicio 7")
 print(it_companies)
 
-#Ejercicio 8:
+#Ejercicio 8: Imprimir cuantas empresas hay en la lista
 print("Ejercicio 8")
+print(len(it_companies))
 
-#Ejercicio 9:
+#Ejercicio 9: Imprimir la primera, la intermedia y la ultima empresa
 print("Ejercicio 9")
+print(it_companies[0], it_companies[3], it_companies[6])
 
-#Ejercicio 10:
+#Ejercicio 10: Modificar una empresa e imprimir la nueva lista
 print("Ejercicio 10")
+it_companies[6]= 'Samsung'
+print(it_companies)
 
-#Ejercicio 11:
+#Ejercicio 11: 
 print("Ejercicio 11")
 
 #Ejercicio 12:
