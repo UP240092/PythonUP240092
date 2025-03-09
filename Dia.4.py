@@ -167,8 +167,11 @@ print('I am enjoying this challenge.\nI just wonder what is next.')
 print("Ejercicio 34")
 print("\tNombre   \tEdad   \tPais       \tCiudad\n\tAsabeneh   \t250   \tFinlandia   \tHelsinki")
 
-#Ejercicio 35:
+#Ejercicio 35: Usar la cadena para sacar el area del circulo
 print("Ejercicio 35")
+radio= 10
+area= 3.14*radio**2
+print("El area del circulo con un radio de {} es de {} metros cuadrados".format(radio, area))
 
 #Ejercicio 36:
 print("Ejercicio 36")
