@@ -156,14 +156,14 @@ print(prueba2.isidentifier())
 
 #Ejercicio 32: Separar las librerias con #
 print("Ejercicio 32")
-librerias= ('Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon')
-print('#'.join(librerias))
+librerias= ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+print('# '.join(librerias))
 
 #Ejercicio 33: Separar las frases
 print("Ejercicio 33")
-print('I am enjoying this challenge.' '/n' 'I just wonder what is next.')
+print('I am enjoying this challenge.\nI just wonder what is next.')
 
-#Ejercicio 34:
+#Ejercicio 34: Escribir en diferentes lineas
 print("Ejercicio 34")
 
 #Ejercicio 35:
