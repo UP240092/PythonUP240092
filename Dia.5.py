@@ -1,13 +1,18 @@
-#Ejercicio 1:
+#Ejercicio 1: Hacer una lista vacia
 print("Ejercicio 1")
+lista= ()
+print(lista)
 
-#Ejercicio 2:
+#Ejercicio 2:Hacer una lista con mas de 5 elementos
 print("Ejercicio 2")
+lista2= ("a, b, c, d, e, f, g")
+print(lista2)
 
-#Ejercicio 3:
+#Ejercicio 3: Encuentra la longitud de la lista
 print("Ejercicio 3")
+print(len(lista2))
 
-#Ejercicio 4:
+#Ejercicio 4: 
 print("Ejercicio 4")
 
 #Ejercicio 5:
