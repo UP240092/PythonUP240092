@@ -16,10 +16,11 @@ print(len(lista2))
 print("Ejercicio 4")
 print(lista2[0], lista2[9], lista2[18])
 
-#Ejercicio 5:
+#Ejercicio 5: Hacer una variable con tus datos
 print("Ejercicio 5")
+mixed_data_types= ["Sofia", 18, 1.73, "Soltera", "Camino Real"]
 
-#Ejercicio 6:
+#Ejercicio 6: 
 print("Ejercicio 6")
 
 #Ejercicio 7:
