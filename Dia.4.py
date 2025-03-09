@@ -173,5 +173,14 @@ radio= 10
 area= 3.14*radio**2
 print("El area del circulo con un radio de {} es de {} metros cuadrados".format(radio, area))
 
-#Ejercicio 36:
+#Ejercicio 36: Operaciones usando el metodo de la cadena
 print("Ejercicio 36")
+n1= 8
+n2= 6
+print("{} + {} = {}".format(n1, n2, n1+n2))
+print("{} - {} = {}".format(n1, n2, n1-n2))
+print("{} * {} = {}".format(n1, n2, n1*n2))
+print("{} / {} = {:.2f}".format(n1, n2, n1/n2))
+print("{} % {} = {}".format(n1, n2, n1%n2))
+print("{} // {} = {}".format(n1, n2, n1//n2))
+print("{} ** {} = {}".format(n1, n2, n1**n2))
