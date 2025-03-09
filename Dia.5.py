@@ -12,8 +12,9 @@ print(lista2)
 print("Ejercicio 3")
 print(len(lista2))
 
-#Ejercicio 4: 
+#Ejercicio 4: Imprimir el primer, el de enmedio y el ultimo termino de la lista
 print("Ejercicio 4")
+print(lista2[0], lista2[9], lista2[18])
 
 #Ejercicio 5:
 print("Ejercicio 5")
