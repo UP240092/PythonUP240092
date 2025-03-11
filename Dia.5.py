@@ -91,33 +91,49 @@ print(ult3)
 
 #Ejercicio 20: Eliminar la empresa de en medio de la lista
 print("Ejercicio 20")
-medio= it_companies
-print(medio)
+it_companies.remove("Google")
+print(it_companies)
 
 #Ejercicio 21: Eliminar la primera empresa de la lista
 print("Ejercicio 21")
+it_companies.remove("SAMSUNG")
+print(it_companies)
 
-
-#Ejercicio 22: 
+#Ejercicio 22: Eliminar las empresas intermedias de la lista
 print("Ejercicio 22")
+it_companies.remove("Facebook")
+print(it_companies)
 
-#Ejercicio 23:
+#Ejercicio 23: Eliminar la ultima empresa de la lista
 print("Ejercicio 23")
+it_companies.remove("Accenture")
+print(it_companies)
 
-#Ejercicio 24:
+#Ejercicio 24: Eliminar todas las empresas de la lista
 print("Ejercicio 24")
+it_companies.clear()
+print(it_companies)
 
-#Ejercicio 25:
+#Ejercicio 25: Eliminar la lista completa
 print("Ejercicio 25")
+del it_companies
 
-#Ejercicio 26:
+#Ejercicio 26: Unirse a las listas
 print("Ejercicio 26")
+front_end= ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end= ['Node','Express', 'MongoDB']
+listas= front_end+back_end
+print(listas)
 
-#Ejercicio 27:
+#Ejercicio 27: Asignar variables en la lista 
 print("Ejercicio 27")
+fullStack= listas.copy()
+fullStack.insert(5, "Python")
+fullStack.insert(6, "SQL")
+print(fullStack)
 
-#Ejercicio 28:
-print("Ejercicio 28")
+#Ejercicio 1 nivel 2:
+print("Ejercicio 1 nivel 2")
 
 #Ejercicio 29:
 print("Ejercicio 29")
