@@ -165,4 +165,17 @@ print("El promedio es de: ", promedio)
 
 #Ejercicio 1.5 nivel 2:
 print("Ejercicio 1.5 nivel 2")
+min1= min(edades)
+max1= max(edades)
+rango= max1-min1
+print("El rango de edades es: ", rango)
 
+#Ejercicio 1.6 nivel 2:
+print("Ejercicio 1.6 nivel 2")
+min2= abs(min1-promedio)
+max2= abs(max1-promedio)
+print("La diferencia entre la edad minima y el promedio es: ", min2)
+print("La diferencia entre la edad maxima y el promedio es: ", max2)
+
+#Ejercicio 2 nivel 2:
+print("Ejercicio 2 nivel 2")
