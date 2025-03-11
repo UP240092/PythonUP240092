@@ -132,14 +132,37 @@ fullStack.insert(5, "Python")
 fullStack.insert(6, "SQL")
 print(fullStack)
 
-#Ejercicio 1 nivel 2:
+#Ejercicio 1.0 nivel 2: Lista de edades
 print("Ejercicio 1 nivel 2")
+edades= [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+print(edades)
 
-#Ejercicio 29:
-print("Ejercicio 29")
+#Ejercicio 1.1 nivel 2: Ordenar la lista y encontrar el mayor y el menor
+print("Ejercicio 1.1 nivel 2")
+edades.sort()
+print(edades)
+menor= edades[0]
+print(menor)
+mayor= edades[-1]
+print(mayor)
 
-#Ejercicio 30:
-print("Ejercicio 30")
+#Ejercicio 1.2 nivel 2:
+print("Ejercicio 1.2 nivel 2")
+edades.append(menor)
+edades.append(mayor)
+print(edades)
 
-#Ejercicio 31:
-print("Ejercicio 31")
+#Ejercicio 1.3 nivel 2: Encontrar la media
+print("Ejercicio 1.3 nivel 2")
+media= ((edades[5]+edades[6])/2)
+print(media)
+
+#Ejercicio 1.4 nivel 2: Sacar el promedio de todas las edades
+print("Ejercicio 1.4 nivel 2")
+sued= sum(edades)
+promedio= sued/len(edades)
+print("El promedio es de: ", promedio)
+
+#Ejercicio 1.5 nivel 2:
+print("Ejercicio 1.5 nivel 2")
+
