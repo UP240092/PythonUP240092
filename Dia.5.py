@@ -76,20 +76,29 @@ print(it_companies)
 
 #Ejercicio 17: Organizar la lista de manera alfabetica al reves
 print("Ejercicio 17")
+it_companies.sort(reverse= True)
+print(it_companies)
 
-#Ejercicio 18:
+#Ejercicio 18: Eliminar las 3 primeras empresas de la lista
 print("Ejercicio 18")
+pri3= it_companies[3:9]
+print(pri3)
 
-#Ejercicio 19:
+#Ejercicio 19: Eliminar las 3 ultimas empresas de la lista
 print("Ejercicio 19")
+ult3= it_companies[3:6]
+print(ult3)
 
-#Ejercicio 20:
+#Ejercicio 20: Eliminar la empresa de en medio de la lista
 print("Ejercicio 20")
+medio= it_companies
+print(medio)
 
-#Ejercicio 21:
+#Ejercicio 21: Eliminar la primera empresa de la lista
 print("Ejercicio 21")
 
-#Ejercicio 22:
+
+#Ejercicio 22: 
 print("Ejercicio 22")
 
 #Ejercicio 23:
