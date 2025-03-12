@@ -202,5 +202,5 @@ print("La longitud de la segunda lista es: ", len(lis2))
 #Nivel 2, Ejercicio 4: Agregar mas paises
 print("Nivel 2, Ejercicio 4")
 pa= ['China', 'Rusia', 'Estados Unidos', 'Finlandia', 'Suecia', 'Noruega', 'Dinamarca']
-paesca= pa[3:]
-print(paesca)
+paiesca= pa[3:]
+print(paiesca)
