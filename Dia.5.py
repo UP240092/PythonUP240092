@@ -132,13 +132,13 @@ fullStack.insert(5, "Python")
 fullStack.insert(6, "SQL")
 print(fullStack)
 
-#Ejercicio 1.0 nivel 2: Lista de edades
-print("Ejercicio 1 nivel 2")
+#Nivel 2, Ejercicio 1.0: Lista de edades
+print("Nivel 2, Ejercicio 1.0")
 edades= [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 print(edades)
 
-#Ejercicio 1.1 nivel 2: Ordenar la lista y encontrar el mayor y el menor
-print("Ejercicio 1.1 nivel 2")
+#Nivel 2, Ejercicio 1.1: Ordenar la lista y encontrar el mayor y el menor
+print("Nivel 2, Ejercicio 1.1")
 edades.sort()
 print(edades)
 menor= edades[0]
@@ -146,36 +146,39 @@ print(menor)
 mayor= edades[-1]
 print(mayor)
 
-#Ejercicio 1.2 nivel 2:
-print("Ejercicio 1.2 nivel 2")
+#Nivel 2, Ejercicio 1.2: Agrgar otra ves la edad minima y la edad maxima a la lista
+print("Nivel 2, Ejercicio 1.2")
 edades.append(menor)
 edades.append(mayor)
 print(edades)
 
-#Ejercicio 1.3 nivel 2: Encontrar la media
-print("Ejercicio 1.3 nivel 2")
+#Nivel 2, Ejercicio 1.3: Encontrar la media
+print("Nivel 2, Ejercicio 1.3")
 media= ((edades[5]+edades[6])/2)
 print(media)
 
-#Ejercicio 1.4 nivel 2: Sacar el promedio de todas las edades
-print("Ejercicio 1.4 nivel 2")
+#Nivel 2, Ejercicio 1.4: Sacar el promedio de todas las edades
+print("Nivel 2, Ejercicio 1.4")
 sued= sum(edades)
 promedio= sued/len(edades)
 print("El promedio es de: ", promedio)
 
-#Ejercicio 1.5 nivel 2:
-print("Ejercicio 1.5 nivel 2")
+#Nivel 2, Ejercicio 1.5: Sacar el rango de las edades
+print("Nivel 2, Ejercicio 1.5")
 min1= min(edades)
 max1= max(edades)
 rango= max1-min1
 print("El rango de edades es: ", rango)
 
-#Ejercicio 1.6 nivel 2:
-print("Ejercicio 1.6 nivel 2")
+#Nivel 2, Ejercicio 1.6: Sacar la diferencia entre la minima y la maima con el promedio
+print("Nivel 2, Ejercicio 1.6")
 min2= abs(min1-promedio)
 max2= abs(max1-promedio)
 print("La diferencia entre la edad minima y el promedio es: ", min2)
 print("La diferencia entre la edad maxima y el promedio es: ", max2)
 
-#Ejercicio 2 nivel 2:
-print("Ejercicio 2 nivel 2")
+#Nivel 2, Ejercicio 2: Importar la lista de paises
+print("Nivel 2, Ejercicio 2")
+import Paises as p
+print
+
