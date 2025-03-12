@@ -180,5 +180,27 @@ print("La diferencia entre la edad maxima y el promedio es: ", max2)
 #Nivel 2, Ejercicio 2: Importar la lista de paises
 print("Nivel 2, Ejercicio 2")
 import Paises as p
-print
+print(len(p.paises))
+media= int(len(p.paises)/2)
+print(media)
+print(p.paises[media]+", "+p.paises[media+1])
+if "México" in p.paises:
+    print("México esta en: ", p.paises.index("México"))
+else:
+    print("No esta")
 
+#Nivel 2, Ejercicio 3: Dividir la lista de paises a la mitad
+print("Nivel 2, Ejercicio 3")
+print(int(len(p.paises)/2))
+lis1= p.paises[0:97]
+lis2= p.paises[97:193]
+print("Primera mitad", lis1)
+print("La longitud de la primera lista es: ", len(lis1))
+print("Segunda mitad", lis2)
+print("La longitud de la segunda lista es: ", len(lis2))
+
+#Nivel 2, Ejercicio 4: Agregar mas paises
+print("Nivel 2, Ejercicio 4")
+pa= ['China', 'Rusia', 'Estados Unidos', 'Finlandia', 'Suecia', 'Noruega', 'Dinamarca']
+paesca= pa[3:]
+print(paesca)
