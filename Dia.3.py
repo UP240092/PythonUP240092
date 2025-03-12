@@ -201,7 +201,7 @@ minutos= horas*60
 segundos= minutos*60
 print("Si tienes", años , "años, entonces tienes", segundos , "segundos de vida")
 
-#Ejercicio 23: Tabla de numeros
+#Ejercicio 23: Tabla de numeros con print
 print("Ejercicio 23")
 print("1 1 1 1 1")
 print("2 1 2 4 8")
