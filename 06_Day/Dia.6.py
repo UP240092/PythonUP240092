@@ -26,28 +26,40 @@ print(fam)
 
 #Nivel 2, Ejercicio 1: Desempacar todos los de la tupla
 print("Nivel 2, Ejercicio 1")
+family=list(fam)
+sib= family[:4]
+pare= family[4:]
+print(sib)
+print(pare)
 
-
-#Nivel 2, Ejercicio 2:
+#Nivel 2, Ejercicio 2: Crear una tupla con frutas, verduras y productos de origen animal
 print("Nivel 2, Ejercicio 2")
+frutas= ("Durazno", "Manzana", "Platano", "Guayaba")
+verduras= ("Coliflor", "Brocoli", "Zanahoria", "Calabaza")
+animal= ("Queso", "Leche", "Carne", "Huevos")
+foodstuff= frutas+verduras+animal
+print(foodstuff)
 
-#Nivel 2, Ejercicio 3:
+#Nivel 2, Ejercicio 3: Hacer la tupla una lista
 print("Nivel 2, Ejercicio 3")
+foodstuff1= list(foodstuff)
+print(foodstuff1)
 
-#Nivel 2, Ejercicio 4:
+#Nivel 2, Ejercicio 4: Cortar los elementos de en medio de la lista
 print("Nivel 2, Ejercicio 4")
+print(foodstuff1[5:7])
 
-#Nivel 2, Ejercicio 5:
+#Nivel 2, Ejercicio 5: Cortar los primeros 3 elementos y los ultimos 3
 print("Nivel 2, Ejercicio 5")
 
-#Nivel 2, Ejercicio 6:
+#Nivel 2, Ejercicio 6: Eliminar la tupla
 print("Nivel 2, Ejercicio 6")
 
-#Nivel 2, Ejercicio 7.0:
+#Nivel 2, Ejercicio 7.0: Comprobar si existe algun elemento de tupla
 print("Nivel 2, Ejercicio 7.0")
 
-#Nivel 2, Ejercicio 7.1:
+#Nivel 2, Ejercicio 7.1: Comprobar si existe 'Estonia'
 print("Nivel 2, Ejercicio 7.1")
 
-#Nivel 2, Ejercicio 7.2:
+#Nivel 2, Ejercicio 7.2: Comprobar si existe 'Islandia'
 print("Nivel 2, Ejercicio 7.2")
