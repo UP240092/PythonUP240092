@@ -51,15 +51,21 @@ print(foodstuff1[5:7])
 
 #Nivel 2, Ejercicio 5: Cortar los primeros 3 elementos y los ultimos 3
 print("Nivel 2, Ejercicio 5")
+print(foodstuff1[3:9])
 
 #Nivel 2, Ejercicio 6: Eliminar la tupla
 print("Nivel 2, Ejercicio 6")
+del foodstuff1
 
 #Nivel 2, Ejercicio 7.0: Comprobar si existe algun elemento de tupla
 print("Nivel 2, Ejercicio 7.0")
+paisesnor= ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
+print(paisesnor)
 
 #Nivel 2, Ejercicio 7.1: Comprobar si existe 'Estonia'
 print("Nivel 2, Ejercicio 7.1")
+print("Estonia" in paisesnor)
 
-#Nivel 2, Ejercicio 7.2: Comprobar si existe 'Islandia'
+#Nivel 2, Ejercicio 7.2: Comprobar si existe 'Iceland'
 print("Nivel 2, Ejercicio 7.2")
+print("Iceland" in paisesnor)
