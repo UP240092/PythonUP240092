@@ -20,10 +20,15 @@ print(it_companies)
 
 #Nivel 1, Ejercicio 5: Buscar la diferencia entre quitar y desechar
 print("Nivel 1, Ejercicio 5")
-print("Cual es la diferencia entre quitar y desechar?")
-print("")
+print("Cual es la diferencia entre eliminar y descartar?")
+print("Eliminar sirve para Se utiliza para eliminar una variable,")
+print("un elemento de una lista, una clave de un diccionario, etc.")
+print("Descartar sirve para Es un método específico de los conjuntos")
+print("en Python. Se utiliza para eliminar un elemento de un conjunto")
+print("si está presente. Si el elemento no está en el conjunto, no")
+print("hace nada (no lanza una excepción).")
 
-#Nivel 2, Ejercicio 1:
+#Nivel 2, Ejercicio 1: 
 print("Nivel 2, Ejercicio 1")
 
 #Nivel 2, Ejercicio 2:
