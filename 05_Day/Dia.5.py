@@ -204,3 +204,5 @@ print("Nivel 2, Ejercicio 4")
 pa= ['China', 'Rusia', 'Estados Unidos', 'Finlandia', 'Suecia', 'Noruega', 'Dinamarca']
 paiesca= pa[3:]
 print(paiesca)
+
+print("Revisado")

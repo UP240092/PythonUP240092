@@ -87,3 +87,5 @@ pa= fr.split()
 un= set(pa)
 print(fr)
 print("Las palabras unicas son: ", len(un), un)
+
+print("Revisado")
