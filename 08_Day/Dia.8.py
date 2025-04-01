@@ -69,3 +69,5 @@ print(estudiante)
 print("Ejercicio 11")
 del perro
 print("Se ha eliminado el diccionario")
+
+print("Revisado")
