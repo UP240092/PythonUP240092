@@ -278,10 +278,33 @@ print("¿Todos los elementos de la lista son del mismo tipo?", sdt(n))
 
 #Nivel 3, Ejercicio 4: Ver si es una variable de python
 print("Nivel 3, Ejercicio 4")
+def ipv(variable):
+    t= type(variable)
+    ti= [str, complex, int, float, bool, list, tuple, set, dict]
+    if t in ti:
+        return True
+    return False
+print("La variable es una variable de Python?", ipv(4))
 
-
-#Nivel 3, Ejercicio 5.1:
+#Nivel 3, Ejercicio 5.1: Los idiomas mas hablados del mundo
 print("Nivel 3, Ejercicio 5.1")
+import Paises_data as paises
+data= paises.countries
+from collections import Counter
+def msl(lista):
+    todos= [idioma for pais in lista for idioma in pais["languages"]]
+    c= Counter(todos)
+    top= c.most_common(10)
+    return top
+print("Los 10 idiomas mas hablados son: ", msl(data))
 
-#Nivel 3, Ejercicio 5.2:
+#Nivel 3, Ejercicio 5.2: Los paises mas poblados
 print("Nivel 3, Ejercicio 5.2")
+def mpc(lista):
+    mas= []
+    top= sorted(lista, key=lambda x: x["population"], reverse=True)[:10]
+    print("Los 10 paises mas poblados son: ")
+    for pais in top:
+        mas.append(f"{pais["name"]}-{pais["population"]}")
+    return mas
+print(mpc(data))
