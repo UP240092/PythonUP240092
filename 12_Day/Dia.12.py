@@ -33,30 +33,30 @@ print("Colores RGB: ", cg())
 
 #Nivel 2, Ejercicio 1: Colores a matrices
 print("Nivel 2, Ejercicio 1")
-def listOfHexaColors (num):
-    hexaColor = []
+def lhc(num):
+    hc= []
     for j in range(num):
-        randomColor = '#' + ''.join(random.choices('0123456789ABCDEF' , k = 6))
-        hexaColor.append(randomColor)
-    return hexaColor
+        ranc= '#' + ''.join(random.choices('0123456789ABCDEF' , k = 6))
+        hc.append(ranc)
+    return hc
 print("Números de colores hexadecimales: ")
-print(listOfHexaColors(5))
+print(lhc(5))
 
 #Nivel 2, Ejercicio 2: Devolver colores en una matriz
 print("Nivel 2, Ejercicio 2")
-def listOfRgbColors (num):
-    rgb = [] 
+def lrc(num):
+    rgb= [] 
     for c in range(num):
-        red = random.randint(0,255)
-        green = random.randint(0,255)
-        blue = random.randint(0,255)
-        rgb.append(('rgb', red, green, blue))
+        morado=random.randint(0,255)
+        negro= random.randint(0,255)
+        rojo= random.randint(0,255)
+        rgb.append(('rgb', morado, rojo, negro))
     return rgb
-print("Número de colores RGB en una matriz:" , listOfRgbColors(5))
+print("Número de colores RGB en una matriz:" , lrc(5))
 
 #Nivel 2, Ejercicio 3: Generar numeros de colores
 print("Nivel 2, Ejercicio 3")
-def generateColors (type, num):
+def gc (type, num):
     colors = []
     if type == 'hexa':
         for j in range(num):
@@ -70,11 +70,24 @@ def generateColors (type, num):
             blue = random.randint(0,255)
             colors.append(('rgb', red, green, blue))
         return colors
-print('Colores hexadecimales:', generateColors('hexa', 3))
-print('Colores RGB:', generateColors('rgb', 2))
+print('Colores hexadecimales:', gc('hexa', 3))
+print('Colores RGB:', gc('rgb', 2))
 
 #Nivel 3, Ejercicio 1: Hacer una lista mesclada
 print("Nivel 3, Ejercicio 1")
+n = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print("Lista original:" , n)
+def shu (list):
+    random.shuffle(list)
+    return list
+print('Lista aleatoria:', shu(n))
 
 #Nivel 3, Ejercicio 2: Hacer una matriz de numeros
 print("Nivel 3, Ejercicio 2")
+def rn ():
+    lrn = set()
+    while (len(lrn) < 7):
+        rann= random.choice('123456789')
+        lrn.add(rann)
+    return list(lrn)
+print("Números aleatorios:" , rn())
