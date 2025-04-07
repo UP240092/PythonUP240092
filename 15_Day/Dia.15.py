@@ -32,3 +32,5 @@ print(int('12'))
 
 # Ejemplo 10: ZeroDivisionError
 print(1 / 1)
+
+print("revisado")

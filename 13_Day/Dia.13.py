@@ -42,3 +42,5 @@ m = pendiente(x1, x2, y1, y2)
 print('La pendiente es:', m)
 b = interseccion_y(m, x1, y1)
 print('La interseccion es:', b)
+
+print("revisado")

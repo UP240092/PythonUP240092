@@ -308,3 +308,5 @@ def mpc(lista):
         mas.append(f"{pais["name"]}-{pais["population"]}")
     return mas
 print(mpc(data))
+
+print("revisado")

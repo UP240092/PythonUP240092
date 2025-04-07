@@ -91,3 +91,5 @@ def rn ():
         lrn.add(rann)
     return list(lrn)
 print("Números aleatorios:" , rn())
+
+print("revisado")
